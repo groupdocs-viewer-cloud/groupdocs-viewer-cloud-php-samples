@@ -1,0 +1,13 @@
+{
+    "name": "groupdocs/group-docs-viewer-s-d-k-examples",
+    "description": "Description of project GroupDocs.Viewer.SDK.Examples.",
+    "authors": [
+        {
+            "name": "GroupDocs",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "groupdocscloud/groupdocs-viewer-cloud": "*"
+    }
+}

@@ -8,7 +8,7 @@
         <h1>
             GroupDocs.Viewer Cloud SDK - Php Examples</h1>
         <p>
-            Click on the link to execute the examples for respective outputs.</p>
+            Please first <a href="Uploat_Test_Files.php" target="_blank">click here</a> to upload the test files to your default storage<br/>Click on the link to execute the examples for respective outputs.</p>
         <ul>
             <li>
                 <h3>

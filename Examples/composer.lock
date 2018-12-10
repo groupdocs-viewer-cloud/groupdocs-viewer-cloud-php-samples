@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c035f3c5a42da53f45c8f624a215ed0",
+    "content-hash": "5ee278011e4ec47b3105943937f4f02b",
     "packages": [
         {
             "name": "groupdocscloud/groupdocs-viewer-cloud",
@@ -63,6 +63,58 @@
                 "sdk"
             ],
             "time": "2018-09-13T14:48:24+00:00"
+        },
+        {
+            "name": "groupdocscloud/storage-sdk-php",
+            "version": "18.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/groupdocs-storage-cloud/groupdocs-storage-cloud-php.git",
+                "reference": "833fdfc533ca8292d802bb1cf9e32e1a81449aba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/groupdocs-storage-cloud/groupdocs-storage-cloud-php/zipball/833fdfc533ca8292d802bb1cf9e32e1a81449aba",
+                "reference": "833fdfc533ca8292d802bb1cf9e32e1a81449aba",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "guzzlehttp/guzzle": "^6.2",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "2.10.*",
+                "phpunit/phpunit": "^4.8",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "GroupDocs": "src/",
+                    "BaseTest": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "GroupDocs",
+                    "homepage": "https://github.com/groupdocs-storage-cloud"
+                }
+            ],
+            "description": "This repository contains GroupDocs Storage Cloud SDK for PHP source code. GroupDocs Storage Cloud SDK for PHP is a true REST API that provides managers for multiple storage types.",
+            "homepage": "https://github.com/groupdocs-storage-cloud/groupdocs-storage-cloud-php",
+            "keywords": [
+                "groupdocs",
+                "groupdocs storage cloud",
+                "php"
+            ],
+            "time": "2018-04-25T09:37:38+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",

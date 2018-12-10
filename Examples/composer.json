@@ -1,6 +1,6 @@
 {
     "name": "groupdocs/group-docs-viewer-s-d-k-examples",
-    "description": "Description of project GroupDocs.Viewer.SDK.Examples.",
+    "description": "Description of project group-docs-viewer-s-d-k-examples.",
     "authors": [
         {
             "name": "GroupDocs",
@@ -8,6 +8,7 @@
         }
     ],
     "require": {
-        "groupdocscloud/groupdocs-viewer-cloud": "*"
+        "groupdocscloud/groupdocs-viewer-cloud": "*",
+        "groupdocscloud/storage-sdk-php": "*"
     }
 }

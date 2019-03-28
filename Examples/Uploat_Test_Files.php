@@ -4,6 +4,7 @@ include(__DIR__ . '\CommonUtils.php');
 
 try {
     $storageApi = CommonUtils::GetStorageApiInstance();
+	$fileApi = CommonUtils::GetFileApiInstance();
 
     $folder = realpath(__DIR__ . '\Resources');
     $filePathInStorage = "";
@@ -18,17 +19,20 @@ try {
             $filePath = $file->getPathName();
 
             $filePathInStorage = str_replace($folder . '\\', "", $filePath);
-            $filePathInStorage = str_replace("\\", "/", $filePathInStorage);
+            //$filePathInStorage = str_replace("\\", "/", $filePathInStorage);
+
+			 echo $filePathInStorage;
+            echo "<br>";
 
             echo $filePath;
             echo "<br>";
 
-            $isExistRequest = new GroupDocs\Storage\Model\Requests\GetIsExistRequest($filePathInStorage);
-            $isExistResponse = $storageApi->GetIsExist($isExistRequest);
+            $isExistRequest = new \GroupDocs\Viewer\Model\Requests\objectExistsRequest($filePathInStorage);
+            $isExistResponse = $storageApi->objectExists($isExistRequest);
 
-            if (!$isExistResponse->getFileExist()->getIsExist()) {
-                $putCreateRequest = new GroupDocs\Storage\Model\Requests\PutCreateRequest($filePathInStorage, $filePath);
-                $putCreateResponse = $storageApi->PutCreate($putCreateRequest);
+            if (!$isExistResponse->getExists()) {
+                $putCreateRequest = new \GroupDocs\Viewer\Model\Requests\uploadFileRequest($filePathInStorage, $filePath);
+                $putCreateResponse = $fileApi->uploadFile($putCreateRequest);
             }
         }
     }

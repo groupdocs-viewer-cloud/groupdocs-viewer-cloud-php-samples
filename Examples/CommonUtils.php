@@ -7,9 +7,10 @@ require_once(__DIR__ . '\vendor\autoload.php');
 class CommonUtils {
 
     // TODO: Get your AppSID and AppKey at https://dashboard.groupdocs.cloud (free registration is required)
-    static $AppSid = 'XXXXX-XXXXX-XXXXX';
-    static $AppKey = 'XXXXXXXX';
+    static $AppSid = 'XXXXX-XXXXXX-XXXXX';
+    static $AppKey = 'XXXXXXX';
     static $ApiBaseUrl = 'https://api.groupdocs.cloud';
+	static $MyStorage = 'XXXXXX';
 
     // Getting the Viewer API Instance
     public static function GetViewerApiInstance() {
@@ -25,17 +26,42 @@ class CommonUtils {
         return new GroupDocs\Viewer\ViewerApi($configuration);
     }
 
-     // Getting the Viewer API Instance
+     // Getting the Viewer StorageAPI API Instance
     public static function GetStorageApiInstance() {
         // intializing the configuration
-        $configuration = new GroupDocs\Storage\Configuration();
+        $configuration = new GroupDocs\Viewer\Configuration();
 
         // Seting the configurations
         $configuration->setAppSid(CommonUtils::$AppSid);
         $configuration->setAppKey(CommonUtils::$AppKey);
 
-        // Retrun the new ViewerAPI instance
-        return new GroupDocs\Storage\Api\StorageApi($configuration);
+        // Retrun the new StorageApi instance
+        return new GroupDocs\Viewer\StorageApi($configuration);
     }
 
+     // Getting the Viewer FolderAPI API Instance
+    public static function GetFolderApiInstance() {
+        // intializing the configuration
+        $configuration = new GroupDocs\Viewer\Configuration();
+
+        // Seting the configurations
+        $configuration->setAppSid(CommonUtils::$AppSid);
+        $configuration->setAppKey(CommonUtils::$AppKey);
+
+        // Retrun the new FolderApi instance
+        return new GroupDocs\Viewer\FolderApi($configuration);
+    }
+
+	// Getting the Viewer FileAPI API Instance
+    public static function GetFileApiInstance() {
+        // intializing the configuration
+        $configuration = new GroupDocs\Viewer\Configuration();
+
+        // Seting the configurations
+        $configuration->setAppSid(CommonUtils::$AppSid);
+        $configuration->setAppKey(CommonUtils::$AppKey);
+
+        // Retrun the new FileApi instance
+        return new GroupDocs\Viewer\FileApi($configuration);
+    }
 }

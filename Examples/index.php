@@ -79,6 +79,8 @@
                     <li><a href="Working_With_View/Viewer_Php_Create_View_With_SpreadsheetOptions.php" target="_blank">Create_Document_View_with_Spreadsheet_Options</a></li>
                     <li><a href="Working_With_View/Viewer_Php_Create_View_With_StartPage_And_CountPages.php" target="_blank">Create_Document_View_with_StartPage_and_Pages_Count</a></li>
                     <li><a href="Working_With_View/Viewer_Php_Delete_View_With_Default_ViewFormat.php" target="_blank">Delete_Document_View_with_Default_ViewFormat</a></li>
+                    <li><a href="Working_With_View/Viewer_Php_Create_View_With_Responsive_HTML.php" target="_blank">Create_View_With_Responsive_HTML</a></li>
+                    <li><a href="Working_With_View/Viewer_Php_Create_View_With_OutputPath.php" target="_blank">Create_View_With_OutputPath</a></li>
 				</ol>
             </li>
             </li>

@@ -3,7 +3,7 @@
 include(dirname(__DIR__) . '\CommonUtils.php');
 
 	try {
-		$apiInstance = CommonUtils::GetViewerApiInstance();
+		$apiInstance = CommonUtils::GetInfoApiInstance();
 		
 		$viewOptions = new GroupDocs\Viewer\Model\ViewOptions();
 

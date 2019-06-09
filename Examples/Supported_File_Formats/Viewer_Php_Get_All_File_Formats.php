@@ -3,9 +3,9 @@
 include(dirname(__DIR__) . '\CommonUtils.php');
 
 try {
-    $viewerApi = CommonUtils::GetViewerApiInstance();
+    $infoApi = CommonUtils::GetInfoApiInstance();
 
-    $response = $viewerApi->getSupportedFileFormats();
+    $response = $infoApi->getSupportedFileFormats();
 
     echo '<b>Supported file formats<br /></b>';
     foreach ($response->getFormats() as $key => $format) {

@@ -12,8 +12,8 @@ class CommonUtils {
     static $ApiBaseUrl = 'https://api.groupdocs.cloud';
 	static $MyStorage = 'XXXXXX';
 
-    // Getting the Viewer API Instance
-    public static function GetViewerApiInstance() {
+    // Getting the View API Instance
+    public static function GetViewApiInstance() {
         // intializing the configuration
         $configuration = new GroupDocs\Viewer\Configuration();
 
@@ -22,11 +22,25 @@ class CommonUtils {
         $configuration->setAppKey(CommonUtils::$AppKey);
         $configuration->setApiBaseUrl(CommonUtils::$ApiBaseUrl);
 
-        // Retrun the new ViewerAPI instance
-        return new GroupDocs\Viewer\ViewerApi($configuration);
+        // Retrun the new ViewAPI instance
+        return new GroupDocs\Viewer\ViewApi($configuration);
     }
 
-     // Getting the Viewer StorageAPI API Instance
+    // Getting the Info API Instance
+    public static function GetInfoInstance() {
+        // intializing the configuration
+        $configuration = new GroupDocs\Viewer\Configuration();
+
+        // Seting the configurations
+        $configuration->setAppSid(CommonUtils::$AppSid);
+        $configuration->setAppKey(CommonUtils::$AppKey);
+        $configuration->setApiBaseUrl(CommonUtils::$ApiBaseUrl);
+
+        // Retrun the new Info instance
+        return new GroupDocs\Viewer\Info($configuration);
+    }
+
+	// Getting the Viewer StorageAPI API Instance
     public static function GetStorageApiInstance() {
         // intializing the configuration
         $configuration = new GroupDocs\Viewer\Configuration();

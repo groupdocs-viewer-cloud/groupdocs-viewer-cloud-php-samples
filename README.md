@@ -1,67 +1,41 @@
-## GroupDocs.Viewer Cloud SDK for PHP
+## GroupDocs.Viewer Cloud SDK for PHP Examples
+This repository contains [Examples](Examples) projects for [GroupDocs.Viewer Cloud SDK for PHP](https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-php) to help you learn and write your own applications.
 
-[GroupDocs.Viewer Cloud SDK for PHP](https://products.groupdocs.cloud/viewer/php) has been developed to help you get started with using our document viewer REST API, allowing to seamlessly convert your documents to any format you need. With this single API, you can convert back and forth between over 50 types of documents and images, including all Microsoft Office and OpenDocument file formats, PDF documents, HTML, CAD, raster images and many more.
 
-This repository contains [Examples](Examples) projects for [GroupDocs.Viewer Cloud SDK for PHP](https://products.groupdocs.cloud/viewer/php) to help you learn and write your own applications.
+[GroupDocs.Viewer Cloud SDK for PHP](https://products.groupdocs.cloud/viewer/php) allows you to work with [GroupDocs.Viewer Cloud API](https://products.groupdocs.cloud/viewer) REST APIs in your PHP applications.
 
 <p align="center">
-
-  <a title="Download complete GroupDocs.Viewer Cloud SDK Examples for PHP source code" href="https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-php-samples/archive/master.zip">
+  <a title="Download complete GroupDocs.Viewer Cloud SDK PHP Example source code" href="https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-php-samples/archive/master.zip">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
 
-Directory | Description
---------- | -----------
-[Examples](Examples)  | A collection of PHP Cloud SDK examples that help you learn the product features
+## Prerequisites
 
++ PHP with Composer installed
++ Get your AppSID and AppKey at [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) (free registration is required).
 
-## Dependencies
-- PHP 5.5 or later
+## How to Run the Examples?
 
-## Authorization
-To use SDK you need AppSID and AppKey authorization keys. You can get your AppSID and AppKey at https://dashboard.groupdocs.cloud (free registration is required).  
+The package contains PHP examples. Follow the given steps to proceed run:
 
-## Installation & Usage
-### Composer
+* Extract the downloaded project
+* Edit CommonUtils.php and put appSid and appKey, obtained from [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) there
+* Go to "Examples" directory of the project
+* Execute "composer update" command
+* Run examples using "php .\RunExamples.php" command
 
-The package is available at [Packagist](https://packagist.org/) and it can be installed via [Composer](http://getcomposer.org/) by executing following command:
-```
-composer require groupdocscloud/groupdocs-viewer-cloud
-``` 
+For more details, visit  [Getting Started](https://docs.groupdocs.cloud/display/viewercloud/Getting+Started).
 
-Or you can install SDK via [Composer](https://packagist.org/packages/groupdocscloud/groupdocs-viewer-cloud) directly from this repository, add the following to `composer.json`:
-
-```
-{
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-php.git"
-    }
-  ],
-  "require": {
-    "groupdocscloud/groupdocs-viewer-cloud": "*"
-  }
-}
-```
-
-Then run `composer install`
-
-### Manual Installation
-
-Clone or download this repository, then run `composer install` in the root directory to install dependencies and include `autoload.php` into your code file:
-
-```php
-require_once('/path/to/groupdocs-viewer-cloud-php/vendor/autoload.php');
-```
-
+## Licensing
+All GroupDocs.Viewer Cloud SDKs are licensed under [MIT License](LICENSE).
 
 ## Resources
++ [**Website**](https://www.groupdocs.cloud)
++ [**Product Home**](https://products.groupdocs.cloud/viewer)
++ [**Documentation**](https://docs.groupdocs.cloud/display/viewercloud/Home)
++ [**Free Support Forum**](https://forum.groupdocs.cloud/c/viewer)
++ [**Blog**](https://blog.groupdocs.cloud/category/viewer)
 
-+ **Website:** [www.GroupDocs.cloud](http://www.GroupDocs.cloud)
-+ **Product Home:** [GroupDocs.Viewer Cloud SDK for PHP](https://products.groupdocs.cloud/viewer/php)
-+ **Download:** [Download GroupDocs.Viewer Cloud SDK for PHP](https://www.nuget.org/packages/GroupDocs.Viewer-Cloud/)
-+ **Documentation:** [GroupDocs.Viewer Cloud SDK Documentation](https://docs.groupdocs.cloud/display/viewercloud/Home)
-+ **Free Support:** [GroupDocs.Viewer Cloud SDK Free Support Forum](https://forum.groupdocs.cloud/c/viewer)
-+ **Blog:** [GroupDocs.Viewer Cloud SDK Blog](https://blog.groupdocs.cloud/category/viewer/)
+## Contact Us
+Your feedback is very important to us. Please feel free to contact us using our [Support Forums](https://forum.groupdocs.cloud/c/viewer).

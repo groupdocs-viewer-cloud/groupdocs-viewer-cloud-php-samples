@@ -8,7 +8,7 @@
     "packages": [
         {
             "name": "groupdocscloud/groupdocs-viewer-cloud",
-            "version": "20.3",
+            "version": "20.5",
             "dist": {
                 "type": "path",
                 "url": "../../../PhpSdk/src",

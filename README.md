@@ -25,17 +25,9 @@ The package contains PHP examples. Follow the given steps to proceed run:
 * Execute "composer update" command
 * Run examples using "php .\RunExamples.php" command
 
-For more details, visit  [Getting Started](https://docs.groupdocs.cloud/display/viewercloud/Getting+Started).
+For more details, visit  [Getting Started](https://docs.groupdocs.cloud/viewer/getting-started/).
 
 ## Licensing
 All GroupDocs.Viewer Cloud SDKs are licensed under [MIT License](LICENSE).
 
-## Resources
-+ [**Website**](https://www.groupdocs.cloud)
-+ [**Product Home**](https://products.groupdocs.cloud/viewer)
-+ [**Documentation**](https://docs.groupdocs.cloud/display/viewercloud/Home)
-+ [**Free Support Forum**](https://forum.groupdocs.cloud/c/viewer)
-+ [**Blog**](https://blog.groupdocs.cloud/category/viewer)
-
-## Contact Us
-Your feedback is very important to us. Please feel free to contact us using our [Support Forums](https://forum.groupdocs.cloud/c/viewer).
+[Home](https://www.groupdocs.cloud/) | [Product Page](https://products.groupdocs.cloud/viewer/php) | [Docs](https://docs.groupdocs.cloud/viewer/) | [Demos](https://products.groupdocs.app/viewer/family) | [API Reference](https://apireference.groupdocs.cloud/viewer/) | [Source Code](https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-php) | [Blog](https://blog.groupdocs.cloud/category/viewer/) | [Free Support](https://forum.groupdocs.cloud/c/viewer) | [Free Trial](https://purchase.groupdocs.cloud/trial)

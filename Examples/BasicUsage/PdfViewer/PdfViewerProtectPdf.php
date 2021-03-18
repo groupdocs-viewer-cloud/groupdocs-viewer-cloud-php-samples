@@ -15,7 +15,7 @@ class PdfViewerProtectPdf {
         $viewOptions->setFileInfo($fileInfo);
         $viewOptions->setViewFormat(Model\ViewOptions::VIEW_FORMAT_PDF);
         $renderOptions = new Model\PdfOptions();
-        $renderOptions->setPermissions(Model\PdfOptions::PERMISSIONS_DENY_MODIFICATION);
+        $renderOptions->setPermissions(["DenyModification", "DenyPrinting"]);
         $renderOptions->setPermissionsPassword("p123");
         $renderOptions->setDocumentOpenPassword("o123");
         $viewOptions->setRenderOptions($renderOptions);

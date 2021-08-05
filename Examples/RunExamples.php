@@ -9,6 +9,8 @@ include(__DIR__ . '\BasicUsage\GetAttachments.php');
 include(__DIR__ . '\BasicUsage\HtmlViewer\HtmlViewerExcludeFonts.php');
 include(__DIR__ . '\BasicUsage\HtmlViewer\HtmlViewerMinifyHtml.php');
 include(__DIR__ . '\BasicUsage\HtmlViewer\HtmlViewerResponsiveLayout.php');
+include(__DIR__ . '\BasicUsage\HtmlViewer\HtmlViewerLimitImageSize.php');
+include(__DIR__ . '\BasicUsage\HtmlViewer\HtmlViewerOptimizeForPrinting.php');
 include(__DIR__ . '\BasicUsage\ImageViewer\ImageViewerAddTextOverlay.php');
 include(__DIR__ . '\BasicUsage\ImageViewer\ImageViewerAdjustImageSize.php');
 include(__DIR__ . '\BasicUsage\ImageViewer\ImageViewerAdjustJpgQuality.php');
@@ -57,6 +59,9 @@ include(__DIR__ . '\AdvancedUsage\RenderingOptionsByFileType\RenderingSpreadshee
 include(__DIR__ . '\AdvancedUsage\RenderingOptionsByFileType\RenderingSpreadsheets\SkipRenderingOfEmptyRows.php');
 include(__DIR__ . '\AdvancedUsage\RenderingOptionsByFileType\RenderingSpreadsheets\SplitWorksheetsIntoPages.php');
 include(__DIR__ . '\AdvancedUsage\RenderingOptionsByFileType\RenderingWordProcessingDocuments\RenderTrackedChanges.php');
+include(__DIR__ . '\AdvancedUsage\RenderingOptionsByFileType\RenderingLotusNotesDatabase\FilterMailStorage.php');
+include(__DIR__ . '\AdvancedUsage\RenderingOptionsByFileType\RenderingTextFiles\SpecifyMaxCharsAndRows.php');
+include(__DIR__ . '\AdvancedUsage\RenderingOptionsByFileType\RenderingVisioDocuments\RenderVisioDocumentFigures.php');
 
 
 // Uploading sample files into storage
@@ -70,6 +75,8 @@ GetAttachments::Run();
 HtmlViewerExcludeFonts::Run();
 HtmlViewerMinifyHtml::Run();
 HtmlViewerResponsiveLayout::Run();
+HtmlViewerLimitImageSize::Run();
+HtmlViewerOptimizeForPrinting::Run();
 ImageViewerAddTextOverlay::Run();
 ImageViewerAdjustImageSize::Run();
 ImageViewerAdjustJpgQuality::Run();
@@ -121,3 +128,6 @@ SkipRenderingOfEmptyColumns::Run();
 SkipRenderingOfEmptyRows::Run();
 SplitWorksheetsIntoPages::Run();
 RenderTrackedChanges::Run();
+FilterMailStorage::Run();
+SpecifyMaxCharsAndRows::Run();
+RenderVisioDocumentFigures::Run();

@@ -15,7 +15,10 @@ class PdfViewerAdjustJpgQuality {
         $viewOptions->setFileInfo($fileInfo);
         $viewOptions->setViewFormat(Model\ViewOptions::VIEW_FORMAT_PDF);
         $renderOptions = new Model\PdfOptions();
-        $renderOptions->setJpgQuality(50);
+        $pdfOptimizationOptions = new Model\PdfOptimizationOptions();
+        $pdfOptimizationOptions->setCompressImages(true);
+        $pdfOptimizationOptions->setImageQuality(80);
+        $renderOptions->setPdfOptimizationOptions($pdfOptimizationOptions);
         $viewOptions->setRenderOptions($renderOptions);
 
 		$request = new Requests\CreateViewRequest($viewOptions);

@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "299bf2ffad793c58ca2259641ada514b",
+    "content-hash": "4401a68b650c288c459242235e27470b",
     "packages": [
         {
             "name": "groupdocscloud/groupdocs-viewer-cloud",
-            "version": "24.2",
+            "version": "24.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-php.git",
-                "reference": "0d089e713c621fd44b4dbd9ff6d82b838259d168"
+                "reference": "a7893ecf23302329dbc6dd6cbc4ab571000ff5b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/groupdocs-viewer-cloud/groupdocs-viewer-cloud-php/zipball/0d089e713c621fd44b4dbd9ff6d82b838259d168",
-                "reference": "0d089e713c621fd44b4dbd9ff6d82b838259d168",
+                "url": "https://api.github.com/repos/groupdocs-viewer-cloud/groupdocs-viewer-cloud-php/zipball/a7893ecf23302329dbc6dd6cbc4ab571000ff5b8",
+                "reference": "a7893ecf23302329dbc6dd6cbc4ab571000ff5b8",
                 "shasum": ""
             },
             "require": {
@@ -61,9 +61,9 @@
             ],
             "support": {
                 "issues": "https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-php/issues",
-                "source": "https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-php/tree/v24.2"
+                "source": "https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-php/tree/v24.3"
             },
-            "time": "2024-02-01T13:37:09+00:00"
+            "time": "2024-03-26T08:21:55+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
